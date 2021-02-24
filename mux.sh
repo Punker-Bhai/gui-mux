@@ -13,7 +13,7 @@ pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompm
 clear
 echo -e "\e[96m     INSTALLING DESKTOP MODE FOR TERMUX"
 sleep 2.0
-cd $HOME && wget https://raw.githubusercontent.com/Punker-Bhai/gui-mux/master/setup.sh && cd termux-desktop && cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
+cd $HOME && git clone https://github.com/adi1090x/termux-desktop && cd termux-desktop && cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
 clear
 echo -e "\e[96m           DOWNLOAD VNC FROM PLAY STORE"
 sleep 5.0
