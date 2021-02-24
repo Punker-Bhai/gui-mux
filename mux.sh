@@ -21,8 +21,8 @@ echo -e "\e[96m     OPENING PLAY STORE"
 sleep 1.0
 termux-open-url https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_US&gl=US
 clear
-echo -e "\e[32m STARTING VNC SERVER | SET PASSWORD MANUALY"
+echo -e "\e[32m        STARTING VNC SERVER | SET PASSWORD MANUALY"
 sleep 2.0
 vncserver
 echo -e "\e[32m                   YOU ARE NOW SET TO GO !"
-echo -e "\e[96m     EXITING....."
+echo -e "\e[96m                      EXITING....."
