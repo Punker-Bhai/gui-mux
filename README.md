@@ -3,6 +3,7 @@
 </p>
 <p align="center">
 <a href="https://punkers.business.site/"><img title="Made in INDIA" src="https://img.shields.io/badge/GUI-MUX-green"></a>
+  
 # GUI-MUX
 * What is Termux Desktop?
 Termux Desktop is a Graphical User Interface of the Termux App. It allows you to run your termux in Desktop mode and in that mode you can do basic things that you in Other Operating Systems like Kali Linux and Windows.
