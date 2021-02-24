@@ -19,7 +19,7 @@ echo -e "\e[96m           DOWNLOAD VNC FROM PLAY STORE"
 sleep 5.0
 echo -e "\e[96m     OPENING PLAY STORE"
 sleep 1.0
-termux-open-url https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_US&gl=US
+xdg-open https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_US&gl=US
 clear
 echo -e "\e[32m        STARTING VNC SERVER | SET PASSWORD MANUALY"
 sleep 2.0
