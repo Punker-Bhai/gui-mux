@@ -16,7 +16,7 @@ sleep 2.0
 cd $HOME && git clone https://github.com/adi1090x/termux-desktop && cd termux-desktop && cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
 clear
 echo -e "\e[96m           DOWNLOAD VNC FROM PLAY STORE"
-sleep 2.0
+sleep 5.0
 echo -e "\e[96m     OPENING PLAY STORE"
 sleep 1.0
 termux-open-url https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en_US&gl=US
