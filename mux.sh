@@ -25,4 +25,5 @@ echo -e "\e[32m        STARTING VNC SERVER | SET PASSWORD MANUALY"
 sleep 2.0
 vncserver
 echo -e "\e[32m                   YOU ARE NOW SET TO GO !"
+echo -e " "
 echo -e "\e[96m                      EXITING....."
