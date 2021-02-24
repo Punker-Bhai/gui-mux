@@ -7,6 +7,7 @@
 * What is Termux Desktop?
 Termux Desktop is a Graphical User Interface of the Termux App. It allows you to run your termux in Desktop mode and in that mode you can do basic things that you in Other Operating Systems like Kali Linux and Windows.
 Desktop Termux will give you all sorts of tools that you expect from an Operating system. You can use File Manager, Terminal, You can Change Settings, use Text Editor, It even has paint too. You can always use the terminal like you use in termux so you will always have control over things.
+  
 ## Installation Cammand
 '''
 cd
