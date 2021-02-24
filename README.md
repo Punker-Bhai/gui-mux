@@ -11,7 +11,7 @@ Desktop Termux will give you all sorts of tools that you expect from an Operatin
   
 ## Installation Cammand
 ```
-cd
+cd $HOME
 apt update
 apt upgrade -y
 apt install git -y
@@ -19,3 +19,14 @@ git clone https://github.com/Punker-Bhai/gui-mux
 cd gui-mux
 bash mux.sh
 ```
+
+## After Installation
+* Now we will export the display for the VncServer, This command will create a Localhost server on your phone. Just paste the below command and press Enter
+`export DISPLAY=":1"`
+* Check if the VncServer is running or not, If it is not running then you have to Go to Step 4 again and run the server. paste the below command and you will see a list of servers running on your termux
+`vncserver -list`
+* Open VNC Viewer app on your mobile phone and Press on the Plus sign Given in the main menu. It will open a new connection Setup window for you
+
+<p align="bottom"
+<a href="https://punkers.business.site/"><img title="Made in INDIA" src="https://img.shields.io/badge/THANK-YOU-red"></a>
+</p>
