@@ -23,6 +23,7 @@ termux-open-url https://play.google.com/store/apps/details?id=com.realvnc.viewer
 clear
 echo -e "\e[32m        STARTING VNC SERVER | SET PASSWORD MANUALY"
 sleep 2.0
+apt install tigervnc -y
 vncserver
 echo -e "\e[32m                   YOU ARE NOW SET TO GO !"
 echo -e " "
