@@ -26,4 +26,3 @@ sleep 2.0
 vncserver
 echo -e "\e[32m                   YOU ARE NOW SET TO GO !"
 echo -e "\e[96m     EXITING....."
-done
